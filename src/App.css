@@ -20,7 +20,10 @@
   border-left: 1px solid;
   border-right: 1px solid;
 }
-
+.App a{
+  color: black;
+  text-decoration: none;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
