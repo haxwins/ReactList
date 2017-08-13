@@ -4,7 +4,7 @@ import './App.css';
 
 const base = [
   "pies","kot","ameba","alfabet","pistolet","kotwica","kanapka","kalafior","karton","kantor",
-  "parowoz", "pionek", "paczka", "antyrama"
+  "parowoz", "pionek", "paczka", "antyrama", "kaczka"
 ];
 class App extends Component {
   constructor(props){
