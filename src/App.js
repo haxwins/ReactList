@@ -4,7 +4,7 @@ import './App.css';
 
 const base = [
   "pies","kot","ameba","alfabet","pistolet","kotwica","kanapka","kalafior","karton","kantor",
-  "parowoz", "pionek", "paczka", "antyrama", "kaczka"
+  "parowoz", "pionek", "paczka", "antyrama", "kaczka", "xd"
 ];
 class App extends Component {
   constructor(props){
@@ -20,7 +20,7 @@ class App extends Component {
       this.setState({currentList: []});
     }
     else{
-      for(let i=0;i<this.state.list.length-1;i++){
+      for(let i=0;i<this.state.list.length;i++){
           if(this.state.list[i].search(value)!==-1){
             newlist.push(this.state.list[i]);
           }
