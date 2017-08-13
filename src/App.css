@@ -1,0 +1,44 @@
+.App {
+  margin: 40px 40px 40px 40px;
+}
+.App input{
+  width: 450px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.App ul{
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: -40px;
+  font-size: 15px;
+  width: 464px;
+}
+.App li{
+  padding-left: 12px;
+  border-bottom:  1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
