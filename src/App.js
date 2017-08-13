@@ -19,9 +19,10 @@ class App extends Component {
       this.setState({currentList: []});
     }
     else{
+      value = value.toLowerCase();
       let newlist = [];
       for(let i=0;i<this.state.list.length;i++){
-          if(this.state.list[i].search(value)!==-1){
+          if(this.state.list[i].search(value)===0){
             newlist.push(this.state.list[i]);
           }
       }
@@ -30,7 +31,7 @@ class App extends Component {
   }
   render() {
     let t = this.state.currentList
-    t = t.map((v)=>{return <li><a href="website.com">{v}</a></li>});
+    t = t.map((v)=>{return <li><a href={'https://website.com/'+v}>{v}</a></li>});
     return (
       <div className="App">
         <input type="text" onChange = {(e)=>{this.search(e.target.value)}}/>
